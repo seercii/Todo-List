@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+}
+
+#inputText{
+    width: 300px;
+    height: 46px;
+    outline: none;
+    border-radius: 15px;
+    border: 3px solid orange;
+    font-size: 25px;
+    color: purple;
+}
+
+#addTodo{
+    width: 80px;
+    height: 45px;
+    vertical-align: middle;
+    border-radius: 15px;
+    font-size: 25px;
+    background: orange;
+    color: purple;
+    border: 3px solid orange;
+    cursor: pointer;
+}
+#addTodo:active{
+    background: purple;
+    color: white;
+}
+#clearTodo{
+    width: 80px;
+    height: 45px;
+    vertical-align: middle;
+    border-radius: 15px;
+    font-size: 25px;
+    background: red;
+    color: white;
+    border: 3px solid red;
+    cursor: pointer;
+}
+#clearTodo:active{
+    background: white;
+    color: red;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    color: purple;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.to-dos{
+    margin-top: 25px;
+    
+}
